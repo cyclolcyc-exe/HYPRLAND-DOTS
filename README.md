@@ -22,6 +22,9 @@ hyprshot
 
 NetworkManager
 
+Awww (You can also use hyprpaper for wallpapers but I recommend to use awww)
+
+
 KEYBINDS:
 SUPER + Q: Launch kitty
 
