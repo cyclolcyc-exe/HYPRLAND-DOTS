@@ -1,0 +1,2 @@
+put everything in .config dir, except wallpapers (put them in ~/Pictures/wallpaper)
+after that, make d.sh executable and launch it (this will make all rofi and waybar scripts executable)
