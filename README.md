@@ -30,7 +30,7 @@ SUPER + Q: Launch kitty
 
 SUPER + C: Close app
 
-SUPER + R: rofi -show drun
+SUPER + R: Universal rofi menu (put wallpaper in ~/Pictures/wallpaper)
 
 SUPER + V: Enable floating
 
