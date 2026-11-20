@@ -1,0 +1,46 @@
+@define-color window_bg_color #000000;
+@define-color window_fg_color #ffffff;
+@define-color headerbar_bg_color #000000;
+@define-color headerbar_fg_color #ffffff;
+@define-color headerbar_border_color rgba(255, 255, 255, 0.2);
+@define-color popover_bg_color #000000;
+@define-color popover_fg_color #ffffff;
+@define-color dialog_bg_color #000000;
+@define-color dialog_fg_color #ffffff;
+@define-color sidebar_bg_color #000000;
+@define-color sidebar_fg_color #ffffff;
+@define-color secondary_sidebar_bg_color #000000;
+@define-color card_bg_color rgba(255, 255, 255, 0.05);
+@define-color accent_bg_color #ffffff;
+@define-color accent_fg_color #000000;
+@define-color view_bg_color #000000;
+@define-color view_fg_color #ffffff;
+
+popover.background contents,
+popover > contents,
+.popover {
+    background-color: #000000 !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8) !important;
+    border-radius: 12px !important;
+}
+
+.navigation-sidebar, .sidebar {
+    background-color: #000000 !important;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+window {
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+selection, .view:selected, .navigation-sidebar row:selected {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+}
+
+separator {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    min-height: 1px;
+}

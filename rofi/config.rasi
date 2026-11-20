@@ -1,0 +1,39 @@
+
+
+configuration {
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+
+* {
+    separatorcolor: transparent;
+    separatorstyle: "Solid";
+    background: rgba(0, 0, 0, 1);
+    border-color: rgb(61, 61, 61);
+
+}
+
+window {
+    border: 2px;
+}
+
+element.normal.normal {
+    background-color: transparent;
+}
+
+element.alternate.normal {
+    background-color: transparent;
+}
+
+element.selected.normal {
+    background-color: rgb(17, 16, 16);
+}
+
